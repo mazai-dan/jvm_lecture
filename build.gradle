@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+group 'com.shengsiyuan'
+version '1.0'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile(
+            "mysql:mysql-connector-java:8.0.18",
+            "cglib:cglib:3.3.0",
+            "org.ow2.asm:asm:7.2"
+    )
+
+}
+
